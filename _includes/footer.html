@@ -7,13 +7,19 @@
                 {% include sns-links.html center=true %}
 
                 <p class="copyright text-muted">
-                    Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
+                    Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}&nbsp;&nbsp;&nbsp;&nbsp;All Rights Reserved.
                     <br>
-                    Powered by <a href="http://huangxuan.me">Hux Blog</a> |
-                    <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="100px"
-                        height="20px"
-                        src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true">
-                    </iframe>
+                    Powered by <a href="https://www.atdanliu.cn">DanLiu</a> |   CDN by <a target="_blank" href="https://www.jsdelivr.com/">jsDelivr</a>  |  Host by <a target="_blank" href="https://vercel.com/">Vercel</a>  | 
+                    <a href="https://github.com/{{ site.github_username }}" target="_blank">
+                    <img src="https://img.shields.io/badge/dynamic/json?&label=Stars&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3DDanLCJ&style=social&logo=github" style="cursor:pointer;"/>
+                    </a><br>
+                    <!--今日诗词 调用方法具体参考www.jinrishici.com-->
+                    {% comment %}
+                    <span id="jinrishici-sentence">正在加载今日诗词....</span>
+                    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+                    <br>{% endcomment %}
+                    {% include build-time.html center=true %}
+                    <span id="htmer_time" style="color: #c5c5c5;" style="font-size:12px;"></span>
                 </p>
             </div>
         </div>
