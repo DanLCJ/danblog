@@ -58,6 +58,16 @@
     </a>
   </li>
   {% endif %}
+  {% if site.instagram_username %}
+  <li>
+      <a target="_blank" href="https://www.instagram.com/{{ site.instagram_username }}">
+          <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+          </span>
+      </a>
+  </li>
+  {% endif %}
   {% if site.github_username %}
   <li>
     <a target="_blank" href="https://github.com/{{ site.github_username }}">
@@ -76,6 +86,27 @@
         <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
       </span>
     </a>
+  </li>
+  {% endif %}
+  <!-- add Tencent & Email by DanLiu -->
+  {% if site.tencent_account %}
+  <li>
+      <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin={{ site.tencent_account }}&site=qq&menu=yes">
+          <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-qq fa-stack-1x fa-inverse"></i>
+          </span>
+      </a>
+  </li>
+  {% endif %}
+ {% if site.email_username %}
+  <li>
+      <a target="_blank" href="mailto:{{ site.email_username }}">
+          <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+          </span>
+      </a>
   </li>
   {% endif %}
 </ul>
