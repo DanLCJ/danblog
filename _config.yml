@@ -1,25 +1,29 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
+title: 曦秋的小屋
+SEOTitle: 曦秋的小屋 | DanLiu Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "关于程序与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
-url: "https://huangxuan.me"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+email: liu_chengjia@qq.com
+description: ""
+keyword: "LCJ , Danliu , 曦秋的小屋 , 曦秋 , 暮夏曦秋 , danliu , @曦秋 , @曦秋的小屋 , 博客 , 个人博客"
+url: "https://blog.atdanliu.cn"              # your host, for absolute URL
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+cdnurl: "https://cdn.jsdelivr.net/gh/DanLCJ/danblog@master"
 
 # Publish posts or collection documents with a future date.
 future: true
 
 # SNS settings
-RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-twitter_username:   huxpro
+RSS: true
+#weibo_username:     huxpro
+#zhihu_username:     huxpro
+github_username:     DanLCJ
+#twitter_username:   huxpro
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
-
+tencent_account:     583644186
+instagram_username:  chengjialiu
+email_username:      liu_chengjia@qq.com
+bilibili_uid:        46881658
 
 
 # Build settings
@@ -67,19 +71,18 @@ netease_comment: false
 
 
 # Analytics settings
-# Baidu Analytics 
-# ba_track_id: [your track id]
-
+# Baidu Analytics
+ba_track_id: 6fc29523f35d9f9a7c8ef0565a9b37ba
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_track_id: 'UA-173392935-1'            # Format: UA-xxxxxx-xx
+ga_domain: blog.atdanliu.cn
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "黄玄，前端娱乐圈 NPC，编程语言/编译器初心者 <br> An UI/Frontend dev & designer accidentally growing into a compiler/PL hacker."
-sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: “人生是一场蛹化蝶，<br>磨砺后将是自由的拥抱蓝天。"<br>“当然，在那一天到来之前我们都不应该放弃，<br>要对生活充满希望，对自己充满自信。”<br>“晚安，比心。🤞”
+sidebar-avatar: "https://cdn.jsdelivr.net/gh/DanLCJ/danliublog@master/img/geren.jpg"       # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -103,31 +106,25 @@ page-mathjax: false
 # Friends
 friends: [
     {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-        title: "乱序（Midare）",
-        href: "http://mida.re/"
+        title: "DuDu",
+        href: "https://blog.atdanliu.cn/jump.html?tpurl=https://lukejiang.netlify.app"
     },{
-        title: "Sherry Woo",
-        href: "https://sherrywoo.me/"
+        title: "小歪网络",
+        href: "https://blog.atdanliu.cn/jump.html?tpurl=https://www.ixiaowai.cn/"
     },{
-        title: "Kun Qian",
-        href: "http://kunq.me"
+        title: "梨花带雨播放器",
+        href: "https://blog.atdanliu.cn/jump.html?tpurl=https://music.m0x.cn/index/"
     },{
-        title: "Ebn Zhang",
-        href: "http://ebnbin.com/"
+        title: "今日诗词",
+        href: "https://blog.atdanliu.cn/jump.html?tpurl=https://www.jinrishici.com"
     },{
-        title: "SmdCn",
-        href: "http://blog.smdcn.net"
+        title: "梦独吟",
+        href: "https://blog.atdanliu.cn/jump.html?tpurl=https://www.datealive.top/"
     },{
-        title: "JiyinYiyong",
-        href: "http://tiye.me/"
+        title: "免费备案域名",
+        href: "https://blog.atdanliu.cn/jump.html?tpurl=http://cc.1xie.xyz/"
     },{
-        title: "DHong Say",
-        href: "http://dhong.co"
-    },{
-        title: "尹峰以为",
-        href: "http://ingf.github.io/"
+        title: "Seeker",
+        href: "https://blog.atdanliu.cn/jump.html?tpurl=https://snow.js.org/"
     }
 ]
