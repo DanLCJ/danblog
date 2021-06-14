@@ -82,7 +82,7 @@ ga_domain: blog.atdanliu.cn
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: “人生是一场蛹化蝶，<br>磨砺后将是自由的拥抱蓝天。"<br>“当然，在那一天到来之前我们都不应该放弃，<br>要对生活充满希望，对自己充满自信。”<br>“晚安，比心。🤞”
-sidebar-avatar: "https://cdn.jsdelivr.net/gh/DanLCJ/danliublog@master/img/geren.jpg"       # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/geren.jpg       # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
