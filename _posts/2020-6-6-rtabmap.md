@@ -55,7 +55,7 @@ deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-security main restricted
 # deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-security main restricted universe multiverse
 ```
  
-其次安装Chrome+V2Ray，同步其余移动端数据的同时保证git-clone能顺利，也可一直使用Firefox。采用QV2Ray：<a href="https://blog.atdanliu.cn/jump.html?tpurl=https://mahongfei.com/1776.html" target="_blank"><u>Linux配置v2ray详细教程-Ubuntu为例</u></a>。其实最开始并不想装VPN，但是最后装摄像头固件的时候，找不到可以替代亚马逊云的链接了！没办法只好用VPN下载下来了，啊当然SSR也可以，取决于你用的是什么了，这里不展开说。装Chrome也只是因为很多资料在账号云端上，直接用是最方便的hhhhhh
+其次安装Chrome+V2Ray，同步其余移动端数据的同时保证git-clone能顺利，也可一直使用Firefox。采用QV2Ray：<a href="https://mahongfei.com/1776.html" target="_blank"><u>Linux配置v2ray详细教程-Ubuntu为例</u></a>。其实最开始并不想装VPN，但是最后装摄像头固件的时候，找不到可以替代亚马逊云的链接了！没办法只好用VPN下载下来了，啊当然SSR也可以，取决于你用的是什么了，这里不展开说。装Chrome也只是因为很多资料在账号云端上，直接用是最方便的hhhhhh
 
 <hr>
 
@@ -149,7 +149,7 @@ alias cm=’cd ~/catkin_ws&&catkin_make’
 ~$ source ~/.bashrc 
 ```
  
-RTABMap里面自带OpenCV的二进制库，因此如果没有其他需求的话可以不装，安装可以参考这个：<a href="https://blog.atdanliu.cn/jump.html?tpurl=https://www.cnblogs.com/eczhou/p/7860586.html" target="_blank"><u>Ubuntu16.04下安装OpenCV2.4.13</u></a>。版本在2.4.11到2.11之间是没问题的，其他的我还没有试验。
+RTABMap里面自带OpenCV的二进制库，因此如果没有其他需求的话可以不装，安装可以参考这个：<a href="https://www.cnblogs.com/eczhou/p/7860586.html" target="_blank"><u>Ubuntu16.04下安装OpenCV2.4.13</u></a>。版本在2.4.11到2.11之间是没问题的，其他的我还没有试验。
  
 <hr>
 
@@ -190,7 +190,7 @@ RTABMap里面自带OpenCV的二进制库，因此如果没有其他需求的话�
 ~$ make install
 ```
 
-* 安装cvsba：需要先下载<a href="https://blog.atdanliu.cn/jump.html?tpurl=https://sourceforge.net/projects/cvsba/files/" target="_blank">cvsba的压缩包</a>
+* 安装cvsba：需要先下载<a href="https://sourceforge.net/projects/cvsba/files/" target="_blank">cvsba的压缩包</a>
 
 ``` shell
 ~$ sudo apt-get install liblapack-dev libf2c2-dev 
@@ -308,20 +308,20 @@ RTABMap里面自带OpenCV的二进制库，因此如果没有其他需求的话�
 
 ### 参考链接：
 
-<a name="cankao1">①</a> <a href="https://blog.atdanliu.cn/jump.html?tpurl=https://cnblogs.com/longronglang/p/11386522.html" target="_blank">Ubuntu16.04安装ROS(Kinetic版本)</a>
+<a name="cankao1">①</a> <a href="https://cnblogs.com/longronglang/p/11386522.html" target="_blank">Ubuntu16.04安装ROS(Kinetic版本)</a>
 
-<a name="cankao2">②</a> <a href="https://blog.atdanliu.cn/jump.html?tpurl=https://blog.csdn.net/nanianwochengshui/article/details/105702188" target="_blank">sudo rosdep init 出现 ERROR: cannot download default sources list from:</a>                    
+<a name="cankao2">②</a> <a href="https://blog.csdn.net/nanianwochengshui/article/details/105702188" target="_blank">sudo rosdep init 出现 ERROR: cannot download default sources list from:</a>                    
 
-<a name="cankao3">③</a> <a href="https://blog.atdanliu.cn/jump.html?tpurl=https://blog.csdn.net/hhg337372083/article/details/82689912" target="_blank">ubuntu16.04 Ros-kinetic 安装流程</a>
+<a name="cankao3">③</a> <a href="https://blog.csdn.net/hhg337372083/article/details/82689912" target="_blank">ubuntu16.04 Ros-kinetic 安装流程</a>
                                   
-<a name="cankao4">④</a> <a href="https://blog.atdanliu.cn/jump.html?tpurl=https://www.ncnynl.com/archives/201709/1991.html" target="_blank">ROS与VSLAM入门教程-rtabmap_ros-安装</a>
+<a name="cankao4">④</a> <a href="https://www.ncnynl.com/archives/201709/1991.html" target="_blank">ROS与VSLAM入门教程-rtabmap_ros-安装</a>
                     
-<a name="cankao5">⑤</a> <a href="https://blog.atdanliu.cn/jump.html?tpurl=https://blog.csdn.net/Iriving_shu/article/details/69372380" target="_blank">rtabmap安装</a>
+<a name="cankao5">⑤</a> <a href="https://blog.csdn.net/Iriving_shu/article/details/69372380" target="_blank">rtabmap安装</a>
                     
-<a name="cankao6">⑥</a> <a href="https://blog.atdanliu.cn/jump.html?tpurl=https://blog.csdn.net/sinat_36502563/article/details/89174282" target="_blank">Ubuntu 驱动Intel RealSense D435i 深度相机及ROS应用</a>
+<a name="cankao6">⑥</a> <a href="https://blog.csdn.net/sinat_36502563/article/details/89174282" target="_blank">Ubuntu 驱动Intel RealSense D435i 深度相机及ROS应用</a>
                     
-<a name="cankao7">⑦</a> <a href="https://blog.atdanliu.cn/jump.html?tpurl=https://github.com/IntelRealSense/realsense-ros " target="_blank">ROS Wrapper for Intel® RealSense™ Devices</a>
+<a name="cankao7">⑦</a> <a href="https://github.com/IntelRealSense/realsense-ros " target="_blank">ROS Wrapper for Intel® RealSense™ Devices</a>
                     
-<a name="cankao8">⑧</a> <a href="https://blog.atdanliu.cn/jump.html?tpurl=https://blog.csdn.net/kou_ching/article/details/85271550" target="_blank">ubuntu16.04 安装 librealsense</a>
+<a name="cankao8">⑧</a> <a href="https://blog.csdn.net/kou_ching/article/details/85271550" target="_blank">ubuntu16.04 安装 librealsense</a>
                     
-<a name="cankao9">⑨</a> <a href="https://blog.atdanliu.cn/jump.html?tpurl=http://wiki.ros.org/rtabmap_ros/Tutorials/HandHeldMapping" target="_blank">RGB-D Handheld Mapping </a>
+<a name="cankao9">⑨</a> <a href="http://wiki.ros.org/rtabmap_ros/Tutorials/HandHeldMapping" target="_blank">RGB-D Handheld Mapping </a>
