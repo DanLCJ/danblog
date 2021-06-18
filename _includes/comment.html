@@ -2,8 +2,7 @@
 <!-- 引入Valine评论插件 https://valine.js.org/ -->
 <div id="vcomments" style="margin-top: 30px;"></div>
 <script>
-    let pathname = window.location.pathname;
-    let valine = new Valine({
+    new Valine({
         el: '#vcomments',
         appId: '{{site.valine.appId}}',
         appKey: '{{site.valine.appKey}}',
