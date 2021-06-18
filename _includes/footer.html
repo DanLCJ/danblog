@@ -39,6 +39,11 @@
 <!-- Simple Jekyll Search -->
 <script src="{{ "/js/simple-jekyll-search.min.js" | prepend: site.baseurl }}"></script>
 
+<!-- Valine -->
+{% if site.valine.enable %}
+    <script src="{{ "/js/valine.min.js" | prepend: site.baseurl }}"></script
+{% endif %}
+
 <!-- Service Worker -->
 {% if site.service-worker %}
 <script src="{{ "/js/snackbar.js " | prepend: site.baseurl }}"></script>
@@ -114,7 +119,7 @@
 
 <!--fastClick.js -->
 <script>
-    async("//https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function () {
+    async("//cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function () {
         var $nav = document.querySelector("nav");
         if ($nav) FastClick.attach($nav);
     })

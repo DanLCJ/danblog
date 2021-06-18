@@ -36,7 +36,15 @@ anchorjs: true                          # if you want to customize anchor. check
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
 #timezone: CN  
 
-
+# Valine
+valine:
+  enable: true                  #是否开启Valine评论
+  appId: HIn4FzoQuCddO8EyjClXtSSW-MdYXbMMI                  #生成的appId
+  appKey: Mak2qKcTmqYxLw0feQQelpp8                          #生成的appKey
+  serverURL: https://api.comment.atdanliu.cn
+  placeholder: '你是我一生只会遇见一次的惊喜 | ᴥ•́ )✧'    #评论框占位提示符
+  enableQQ: true                #是否启用昵称框自动获取QQ昵称和QQ头像
+  recordIP: true                #是否记录评论者IP
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
