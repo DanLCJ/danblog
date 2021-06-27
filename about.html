@@ -20,6 +20,13 @@ multilingual: true
     {{ about_en | markdownify }}
 </div>
 
+<hr>
+
+{% if site.valine.enable %}
+<div id="vcomments" style="margin-top: 30px;"></div>
+{% include comment.html %}
+{% endif %}
+
 
 {% if site.disqus_username %}
 <!-- disqus 评论框 start -->

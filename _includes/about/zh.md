@@ -8,6 +8,7 @@ Hi，我是黄玄，前端娱乐圈 NPC，编程语言/编译器初心者，[Fac
 这个图表可视化了我对于各种编程语言的使用经历、兴趣，还附带了一些评语和解释等等。 啊我知道对比编程语言是一件很有争议的事情……自娱自乐一下！不要太较真哦 ;)
 
 
+
 ##### 演讲与分享
 
 - [Upgrading to Progressive Web Apps][9] · [JSConf CN 上海 2017](http://2017.jsconf.cn/)
@@ -29,3 +30,7 @@ Hi，我是黄玄，前端娱乐圈 NPC，编程语言/编译器初心者，[Fac
 [7]: https://yanshuo.io/assets/player/?deck=593ad6fbfe88c2006a0a0d6d "The State of PWA"
 [8]: https://yanshuo.io/assets/player/?deck=594d673d570c357d0698a950 "Building PWA"
 [9]: //huangxuan.me/jsconfcn2017/
+
+{% include build-time.html center=true %}
+<span id="htmer_time" style="color: #c5c5c5;" style="font-size:12px;"></span>
+
