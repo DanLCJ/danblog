@@ -10,6 +10,7 @@
         avatar: 'wavatar',
         recordIP: '{{site.valine.recordIP}}',
         enableQQ: '{{site.valine.enableQQ}}',
+        meta: ['nick','mail'],
         emojiCDN: '//i0.hdslb.com/bfs/emote/',
         emojiMaps: {
                 "2021": "14d8996128d46dabd3a2ed6c172c8af918d7a5d2.png",
@@ -178,6 +179,7 @@
         valine.setPath(pathname);
     });*/
 </script>
+
 <style>
     /* valine 评论框增加背景图片 */
     #vcomments textarea {
@@ -222,4 +224,5 @@
         100%    {transform:rotate(360deg);}
     }
 </style>
+
 {% endif %}
