@@ -14,11 +14,11 @@ future: true
 
 # SNS settings
 RSS: true
-#weibo_username:     huxpro
-#zhihu_username:     huxpro
+#weibo_username:     xxxxxx
+#zhihu_username:     xxxxxx
 github_username:     DanLCJ
-#twitter_username:   huxpro
-#facebook_username:  huxpro
+#twitter_username:   xxxxxx
+#facebook_username:  xxxxxx
 #linkedin_username:  firstname-lastname-idxxxx
 tencent_account:     583644186
 instagram_username:  chengjialiu
@@ -115,24 +115,24 @@ page-mathjax: false
 friends: [
     {
         title: "DuDu",
-        href: "https://blog.atdanliu.cn/jump.html?tpurl=https://lukejiang.netlify.app"
+        href: "https://lukejiang.github.io/"
     },{
         title: "小歪网络",
-        href: "https://blog.atdanliu.cn/jump.html?tpurl=https://www.ixiaowai.cn/"
+        href: "https://www.ixiaowai.cn/"
     },{
         title: "梨花带雨播放器",
-        href: "https://blog.atdanliu.cn/jump.html?tpurl=https://music.m0x.cn/index/"
+        href: "https://music.m0x.cn/index/"
     },{
         title: "今日诗词",
-        href: "https://blog.atdanliu.cn/jump.html?tpurl=https://www.jinrishici.com"
+        href: "https://www.jinrishici.com"
     },{
         title: "梦独吟",
-        href: "https://blog.atdanliu.cn/jump.html?tpurl=https://www.datealive.top/"
+        href: "https://www.datealive.top/"
     },{
         title: "免费备案域名",
-        href: "https://blog.atdanliu.cn/jump.html?tpurl=http://cc.1xie.xyz/"
+        href: "http://cc.1xie.xyz/"
     },{
         title: "Seeker",
-        href: "https://blog.atdanliu.cn/jump.html?tpurl=https://snow.js.org/"
+        href: "https://snow.js.org/"
     }
 ]
