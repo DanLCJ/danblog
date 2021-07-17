@@ -2,7 +2,7 @@
 title: 曦秋的小屋
 SEOTitle: 曦秋的小屋 | DanLiu Blog
 header-img: img/home-bg.jpg
-email: liu_chengjia@qq.com
+email: atdanliu@foxmail.com
 description: ""
 keyword: "LCJ , Danliu , 曦秋的小屋 , 曦秋 , 暮夏曦秋 , danliu , @曦秋 , @曦秋的小屋 , 博客 , 个人博客"
 url: "https://blog.atdanliu.cn"              # your host, for absolute URL
@@ -21,7 +21,7 @@ github_username:     DanLCJ
 #facebook_username:  xxxxxx
 #linkedin_username:  firstname-lastname-idxxxx
 tencent_account:     583644186
-email_username:      liu_chengjia@qq.com
+email_username:      atdanliu@foxmail.com
 bilibili_uid:        46881658
 
 
@@ -118,9 +118,6 @@ friends: [
     },{
         title: "小歪网络",
         href: "https://www.ixiaowai.cn/"
-    },{
-        title: "梨花带雨播放器",
-        href: "https://music.m0x.cn/index/"
     },{
         title: "今日诗词",
         href: "https://www.jinrishici.com"
