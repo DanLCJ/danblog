@@ -182,9 +182,11 @@
 
 <style>
     /* valine 评论框增加背景图片 */
+    
     #vcomments textarea {
         box-sizing: border-box;
-        background: url("/img/comment_bg.jpg") 100% 100% no-repeat;
+        background: url("/img/comment_bg.gif") 100% 25% no-repeat;
+        background-position: right;
     }
     #vcomments p {
         margin: 8px 0;
@@ -207,7 +209,14 @@
     .v[data-class="v"] .vcards .vcard .vquote {
         border-left: none;
     }
-
+    /*
+    .v .veditor{min-height: 10rem;
+        background-image: url(https://cdn.jsdelivr.net/gh/cungudafa/img/images/girls2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-color: rgba(255,255,255,0);
+        resize: none;}
     .v .vwrap{padding: 0 0 44px;}
     .v .vwrap .vedit{padding-top:20px;}
     .v .vwrap .vheader{width: 80%;bottom:0;position: absolute;background: #fff7f7f7;}
@@ -227,6 +236,7 @@
     @media screen and (max-width: 520px){
         .v .vwrap .vheader .vinput{width: 33.33%;padding:10px 5px;}
 
+    */
     /*设置评论头像旋转*/
     .v .vcards .vcard .vimg:hover {
         -webkit-animation: vimg-transform .8s linear;
