@@ -13,7 +13,7 @@ cdnurl: "https://cdn.jsdelivr.net/gh/DanLCJ/danblog@master"
 future: true
 
 # SNS settings
-RSS: true
+RSS: false
 #weibo_username:     xxxxxx
 #zhihu_username:     xxxxxx
 github_username:     DanLCJ
