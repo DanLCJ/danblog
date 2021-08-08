@@ -12,7 +12,7 @@ Hi，我是Dan Liu，一个漫无目标游手好闲的大学僧，目前在美�
 这是我的利用<a href="http://pages.github.com/" target="_blank"> GitHub Pages </a>与开源静态网页生成工具<a href="https://www.jekyll.com/" target="_blank"> Jekyll </a>搭建的个人博客，感谢<a href="https://huangxuan.me/" target="_blank"> Hux </a>提供的主题。如果感兴趣可以翻看<a href="https://blog.atdanliu.cn/post/gitblog.html">我的这篇文章</a>，里面较为详细的记录了我是如何搭建这个网站的。
 
 {% include build-time.html center=true %}
-<span id="htmer_time" style="color: #c5c5c5;" style="font-size:16px;"></span>
+<span id="htmer_time_cn" style="font-size:16px;"></span>
 
 
 
