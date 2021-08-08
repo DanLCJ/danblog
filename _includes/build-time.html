@@ -63,7 +63,7 @@
         var create_time = Math.round(new Date(Date.UTC(2020, 05, 06, 06, 06, 06)).getTime() / 1000);
         var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
         currentTime = secondToDate((timestamp - create_time));
-        currentTimeHtml = 'This blog have been built for ' + currentTime[0] + ' year(s) ' + currentTime[1] + ' day(s) ' + currentTime[2] + ' hour(s) ' + currentTime[3] + ' minute(s) ' + currentTime[4] + ' second(s)';
+        currentTimeHtml = 'This blog has been built for ' + currentTime[0] + ' year(s) ' + currentTime[1] + ' day(s) ' + currentTime[2] + ' hour(s) ' + currentTime[3] + ' minute(s) ' + currentTime[4] + ' second(s)';
         document.getElementById("htmer_time_en").innerHTML = currentTimeHtml;
     };
     // 兼容pjax，当htmer_time_en存在时输出，否则清空计时器
