@@ -18,13 +18,13 @@ tags:
 
 用到的网站/软件：
 
-✔ [GitHub](http://github.com/)
+✔ [GitHub](http://github.com/){:target="_blank"}
 
-✔ [Freenom](http://www.freenom.com/)（这个是建域名的，也可以选择阿里云或腾讯云）
+✔ [Freenom](http://www.freenom.com/){:target="_blank"}（这个是建域名的，也可以选择阿里云或腾讯云）
 
-✔ [DNSPod](https://www.dnspod.cn/)
+✔ [DNSPod](https://www.dnspod.cn/){:target="_blank"}
 
-✔ [Vercel](https://www.vercel.com/)（20.08.24更新）
+✔ [Vercel](https://www.vercel.com/){:target="_blank"}（20.08.24更新）
 
 ✔ VS Code / GitHub Desktop
 
@@ -36,7 +36,7 @@ tags:
 
 ![](http://cdn.jsdelivr.net/gh/DanLCJ/danblog@master/img/in-post/gitblog/gitblog-githubrepo.png)
 
-接下来去找一个喜欢的模板吧，模板这个东西其实大同小异，无论是什么格式的，只要看懂框架就解决了一大半了。这里给一个[Jekyll的主题](http://jekyllthemes.org/)汇总，可以去里面进行下载或者fork。我使用的是[黄玄的模板](/about)（Hux Blog），排版很简洁，代码可读性很强。这个看个人喜好，有些人就喜欢各种动画各种功能，有些人可能更青睐简洁明了的博客，我就是属于后者的类型。
+接下来去找一个喜欢的模板吧，模板这个东西其实大同小异，无论是什么格式的，只要看懂框架就解决了一大半了。这里给一个[Jekyll的主题](http://jekyllthemes.org/){:target="_blank"}汇总，可以去里面进行下载或者fork。我使用的是[黄玄的模板](/about){:target="_blank"}（Hux Blog），排版很简洁，代码可读性很强。这个看个人喜好，有些人就喜欢各种动画各种功能，有些人可能更青睐简洁明了的博客，我就是属于后者的类型。
 
 <hr>
 
@@ -44,7 +44,7 @@ tags:
 
 这部分可以忽视，如果想要一个个性的网站域名的话，就请继续看下去；如果只是想实现博客功能，可以直接去“把内容放域名里”部分了。
 
-目前最常见的注册域名的方式主要是在腾讯云、阿里云的比较多，其他的优质云服务例如又拍云、七牛云等等似乎并不提供注册域名的服务。但是这里面就有一个小问题：域名要钱。作为一名学生党，在没有稳定收入之前并不想在这方面投入过多，因此我选择了一种免费的注册域名的方式：[Freenom](http://www.reenom.com/)
+目前最常见的注册域名的方式主要是在腾讯云、阿里云的比较多，其他的优质云服务例如又拍云、七牛云等等似乎并不提供注册域名的服务。但是这里面就有一个小问题：域名要钱。作为一名学生党，在没有稳定收入之前并不想在这方面投入过多，因此我选择了一种免费的注册域名的方式：[Freenom](http://www.reenom.com/){:target="_blank"}
 
 后来才发现其实人家收费也是有好处的：最起码帮你备案了，能用国内的大牌CDN了，加载最起码不费劲，域名也好听好记。没办法……所以最后我手动CDN了，当然这是后话了。
 
@@ -132,14 +132,35 @@ tags:
 
 正文部分可以参考HTML的格式，基本上HTML能用的在这里都能用。
 
-如果你还是一头雾水，你可以参考一下我给你的这个[范例](http://cdn.jsdelivr.net/gh/DanLCJ/danblog@master/_posts/test.markdown)。
+如果你还是一头雾水，你可以参考一下我给你的这个[范例](http://cdn.jsdelivr.net/gh/DanLCJ/danblog@master/_posts/test.markdown){:target="_blank"}。
 
 <hr>
 
-### 20.08.11更新
+### yì些小细节
 
-原域名连续两天主服务器在流量高峰期宕机，DNSPod的免费版实在是不中用。忍不了的情况下还是去腾讯云注册了个域名，就是现在使用的atdanliu.cn，没啥大动静的话应该不会再动了。这几天电信还在系统维护，还得等着维护结束才能域名备案，之后争取接进七牛云的CDN，网络的维护就算告一段落了。
+在国内加载Github Pages实在是太慢了，起初我还想在文件加载方面找找问题，但是发现一时半会儿并不是我现有知识能解决的了的。于是我选择了第一套曲线救国：[jsDelivr](https://www.jsdelivr.com/){:target="_blank"}，将绝大部分大小小于5MB的文件全部交由它代为加载。jsDelivr最大的优势在于拥有在国内的CDN服务器，在国内访问速度相比Github Pages明显更快。
 
-### 20.08.23更新
+后来我看到[DotIN13的博客](https://www.wannaexpresso.com/2020/03/14/move-to-zeit/){:target="_blank"}后还是决定将整体迁移至[Vercel](https://vercel.com){:target="_blank"}进行代理。搭建完成后我的网络ping大约40-50ms，这是个非常理想的速度了。和之前DNSPod + Github Pages相比，稳定性和速度都有非常卓越的提升。
 
-放弃备案了：8.17ICP备案系统维护完毕，相当于是个大更新，ICP备案官网根本就没有申请备案的入口；给电信的营业厅打电话，不仅态度不好而且也没提供任何材料。之前选择备案只是因为可以白嫖七牛云的免费云存储和CDN，但是原先博客的国内加载速度，打开网站差不多10s，再要加载脚本结束估计快20s了，对于用户来说体验极其糟糕。然而我看到了[DotIN13的博客](https://www.wannaexpresso.com/2020/03/14/move-to-zeit/)之后决定迁移到了[Vercel](https://vercel.com)，遇到的问题也和DotIN13遇到的问题一模一样，所以解决起来非常方便。搭建完成后我的网络ping大约40-50ms，这是个非常理想的速度了。和之前DNSPod + Github Pages相比，稳定性和速度都有非常卓越的提升。我之后会补充如何迁移到Vercel上的。另外，我的sitemap提交到Google上，两天之后就能搜索到；提交到百度那边半个月都没收录，快要气死了气死了气死了……
+简单介绍一下流程：进入网站之后登录(login)，选择使用Github账号：
+
+![](http://cdn.jsdelivr.net/gh/DanLCJ/danblog@master/img/in-post/gitblog/gitblog-vercellogin.png)
+
+登录进去后新建一个项目(New Project)，进入后在左侧列表选择你的项目：（我这里用danblog做示例）
+
+![](http://cdn.jsdelivr.net/gh/DanLCJ/danblog@master/img/in-post/gitblog/gitblog-chooseproj.png)
+
+选择项目后选择第二项，填写这个项目的名称，并选择这个项目使用的工具框架，我这里选择的是Jekyll，选择完成后即可进行Deploy。
+
+![](http://cdn.jsdelivr.net/gh/DanLCJ/danblog@master/img/in-post/gitblog/gitblog-deploy.png)
+
+之后等待一段时间即可完成部署。可进入项目查看详情。这里存在一个小问题：项目中必须拥有`Gemfile`的文件，否则部署时会报错`jekyll command not found`的编译错误。这个文件主要是用于识别Dependencies的。如果误删的话可以在项目主目录新建这个文件并添加以下代码：
+
+```ruby
+gem "jekyll"
+gem "jekyll-paginate"
+```
+
+部署完成后可以使用vercel自带的域名进行访问；如果想自定义域名可以在界面中选择第四项：域名(Domain)。选择你的项目后输入你想使用的域名。这时需要在域名运营商同DNSPod相同的方式改成Vercel需要的方式即可，这里不再赘述。
+
+后续的细节仍在更新……
