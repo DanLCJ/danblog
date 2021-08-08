@@ -1,36 +1,24 @@
-Hi，我是黄玄，前端娱乐圈 NPC，编程语言/编译器初心者，[Facebook](https://www.facebook.com/) 签约软件工程师，[广院](https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E4%BC%A0%E5%AA%92%E5%A4%A7%E5%AD%A6)认证数字设计师，曾被招募为阿里巴巴 · [阿里旅行（飞猪）](http://alitrip.com)· 前端工程师、微影时代 · 微票儿 · 前端基础设施工程团队负责人、[饿了么](https://ele.me/) · 大前端团队 · [PWA 顾问](https://medium.com/elemefe/upgrading-ele-me-to-progressive-web-app-2a446832e509) 等。
+##### 关于 我
 
-目前的物理活动范围主要在美帝硅谷，分身日常出没于[博客](https://huangxuan.me)、[微博](https://weibo.com/huxpro)、[知乎](https://www.zhihu.com/people/huxpro/pins/posts)、[Twitter](https://twitter.com/Huxpro/)、[Github](https://github.com/huxpro)、[Medium](https://medium.com/@Huxpro)。
+Hi，我是Dan Liu，一个漫无目标游手好闲的大学僧，目前在美帝读ECE专业的研究生。爱好各种体育运动和音乐，包括但不限于篮球、足球、羽毛球、乒乓球等等，民谣和流行乐也是我的最爱，最喜欢而最意难平的莫过于 Goose House 了。
 
+时而感性时而理性，时而安静得只想看书或者做一些喜欢的事，时而活泼得只想与朋友一起娱乐的一个矛盾的理工男(～o￣3￣)～你可以通过博客底部或者侧边栏的各种联系方式找到我，有任何的问题和消息都可以与我分享。
 
-##### [我的编程语言可视化 (WIP 🚧)](https://huangxuan.me/2020/05/05/pl-chart/)
-
-这个图表可视化了我对于各种编程语言的使用经历、兴趣，还附带了一些评语和解释等等。 啊我知道对比编程语言是一件很有争议的事情……自娱自乐一下！不要太较真哦 ;)
-
+目前学术方面的个人主页正在加紧制作中，敬请期待。
 
 
-##### 演讲与分享
+##### 关于 Blog
 
-- [Upgrading to Progressive Web Apps][9] · [JSConf CN 上海 2017](http://2017.jsconf.cn/)
-- Building Progressive Web Apps · [CSDI 广州 2017](http://www.csdisummit.com/)
-- The State of Progressive Web App · GDG IO Redux 北京 2017
-- 炒冷饭 · PWA 到底是个什么玩意？· Baidu HQ 北京 2017
-- [Service Worker 101][5] · GDG DevFest 北京 2016
-- [Progressive Web App，复兴序章][4] · [QCon 上海 2016](http://2016.qconshanghai.com/presentation/3111)
-- Progressive Web App 之我见 · GDG IO Redux 北京 2016
-- [CSS Still Sucks 2015][2] · 2015
-- [JavaScript 模块化七日谈][1] · 2015
-
-[1]: //huangxuan.me/2015/07/09/js-module-7day/
-[2]: //huangxuan.me/2015/12/28/css-sucks-2015/
-[3]: //huangxuan.me/2016/06/05/pwa-in-my-pov/
-[4]: //huangxuan.me/2016/10/20/pwa-qcon2016/
-[5]: //huangxuan.me/2016/11/20/sw-101-gdgdf/
-[6]: https://yanshuo.io/assets/player/?deck=58ac8598b123db0067292f92 "PWA Rehashing"
-[7]: https://yanshuo.io/assets/player/?deck=593ad6fbfe88c2006a0a0d6d "The State of PWA"
-[8]: https://yanshuo.io/assets/player/?deck=594d673d570c357d0698a950 "Building PWA"
-[9]: //huangxuan.me/jsconfcn2017/
+这是我的利用<a href="http://pages.github.com/" target="_blank"> GitHub Pages </a>与开源静态网页生成工具<a href="https://www.jekyll.com/" target="_blank"> Jekyll </a>搭建的个人博客，感谢<a href="https://huangxuan.me/" target="_blank"> Hux </a>提供的主题。如果感兴趣可以翻看<a href="https://blog.atdanliu.cn/post/gitblog.html">我的这篇文章</a>，里面较为详细的记录了我是如何搭建这个网站的。
 
 {% include build-time.html center=true %}
-<span id="htmer_time" style="color: #c5c5c5;" style="font-size:12px;"></span>
+<span id="htmer_time" style="color: #c5c5c5;" style="font-size:16px;"></span>
+
+
+
+##### 版权声明
+
+博客内的所有原创内容（包括但不限于文章、图像等）除特别声明外均采用<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>，任何人都可以自由传播，但不得用于商用且必须署名并以相同方式分享。
+
+本站部分内容转载于网络，有出处的已在文中署名作者并附加原文链接，出处已不可寻的皆已标注来源于网络。若您认为本博客有部分内容侵犯了您的权益，请在评论区留言或电邮告知，我将认真处理。
 
