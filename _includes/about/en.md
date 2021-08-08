@@ -1,8 +1,8 @@
 ##### About Myself
 
-Hi, I am _@DanLiu_ , a college student from<a href="https://en.wikipedia.org/wiki/Xi%27an_Jiaotong_University" target="_blank"> Xi'an Jiaotong University </a>, and currently I study in the<a href="https://en.wikipedia.org/wiki/University_of_FloridaUniversity" target="_blank"> University of Florida </a>to have the Master's degree in Electrical and Computer Engineering.
+Hi, I am _@DanLiu_ , a college student from<a href="https://en.wikipedia.org/wiki/Xi%27an_Jiaotong_University" target="_blank"> Xi'an Jiaotong University </a>, and currently I study in the<a href="https://en.wikipedia.org/wiki/University_of_FloridaUniversity" target="_blank"> University of Florida </a>to get the Master's degree in Electrical and Computer Engineering.
 
-I adore almost every sports, especially basketball, soccer, badminton and table tennis. Pops and Folks are also my favorites, but my love and the most unforgetable musician is Goose House.
+I adore almost every sports, especially basketball, soccer, badminton and table tennis. Pops and Folks are also my favorites, and my love and the most unforgetable musician is Goose House.
 
 You can contact me with any problems and information through the ways at the bottom of the page or on the sidebar. At present, the academic personal homepage is stepping up production, so stay tuned.
 
